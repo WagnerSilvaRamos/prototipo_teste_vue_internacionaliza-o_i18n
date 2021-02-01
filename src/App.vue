@@ -11,18 +11,18 @@
       </button>
     </div>
 
-    <HelloWorld msg="Welcome to  internationalization Prototype " />
+    <ContentInfos msg="Welcome to  internationalization Prototype " />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import ContentInfos from "./components/ContentInfos.vue";
 import i18n from "@/plugins/i18n";
 
 export default {
   name: "app",
   components: {
-    HelloWorld,
+    ContentInfos,
   },
   data() {
     return {
